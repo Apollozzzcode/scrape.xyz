@@ -19,6 +19,6 @@ RUN pip install --no-cache-dir discord.py playwright
 # Install Chromium via Playwright
 RUN playwright install chromium
 
-COPY bot2.py .
+COPY mercury_bot.py .
 
-CMD ["python", "bot2.py"]
+CMD ["python", "mercury_bot.py"]
