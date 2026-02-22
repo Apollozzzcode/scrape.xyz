@@ -21,4 +21,4 @@ RUN playwright install chromium
 
 COPY mercury_bot.py .
 
-CMD ["python", "mercury_bot.py"]
+CMD ["python", "bot2.py"]
